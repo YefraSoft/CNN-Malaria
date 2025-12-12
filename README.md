@@ -2,15 +2,27 @@
 
 Este repositorio contiene un cuaderno de Jupyter (`on6.ipynb`) que implementa una CNN (Convolutional Neural Network) para detectar malaria en imágenes de frotis sanguíneo usando TensorFlow y Keras.
 
+![Logo](logogit.png)
+
+- **Autor:** _Eduardo Efrain Garcia Sarez_
+
+  > **12/12/2025**
+
+- **Institución:** **Instituto Tecnológico Superior de Jalisco (TSJ)**.  
+- **Carrera:** **Ingeniería en Sistemas Computacionales**
+
 ## Contenido
+
 - `on6.ipynb`: Notebook principal con la explicación y el código completo para cargar el dataset, construir y entrenar la CNN, realizar predicciones y evaluar el modelo.
-- `base.md`: (Documento auxiliar) - excluido del control de versiones por privacidad o formato intermedio.
+- `on6.pdf`: Docuemnto pdf pra unicamente lectura.
 
 ## Requisitos (sistema)
+
 - Python 3.8+ (recomendado 3.10+)
 - Pip (gestor de paquetes)
 
 ## Instalación (entorno recomendado)
+
 1. Crear un entorno virtual (opcional, recomendado):
 
 ```bash
@@ -31,6 +43,7 @@ pip install tensorflow tensorflow-datasets matplotlib seaborn scikit-learn
 > Nota: Ajusta las versiones de `tensorflow` si usas GPU o una versión concreta de CUDA.
 
 ## Uso
+
 1. Abrir el cuaderno `on6.ipynb` en Jupyter Notebook o JupyterLab:
 
 ```bash
@@ -44,6 +57,7 @@ jupyter lab
 3. Configura parámetros como `IMG_SIZE`, `BATCH_SIZE`, y `epochs` en el notebook según tus recursos.
 
 ## Notas sobre `base.md`
+
 `base.md` es un documento con información adicional. Se excluye del control de versiones por contener contenidos auxiliares no necesarios en el repositorio público.
 
 Si ya está en el historial de Git y deseas eliminarlo del control de versiones, ejecuta:
@@ -55,12 +69,9 @@ git commit -m "Excluir base.md del control de versiones"
 ```
 
 ## Mejoras futuras
+
 - Data augmentation y regularización para evitar overfitting.
 - Transfer learning con modelos preentrenados (ResNet, EfficientNet).
 - Experimentos con distintos tamaños de imagen y aumentos.
 
-## Autor
-- Eduardo Efrain Garcia Sarez  — Instituto Tecnológico Superior de Jalisco (TSJ)
-
----
 Fecha: 12/12/2025
