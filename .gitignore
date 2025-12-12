@@ -1,0 +1,17 @@
+# Ignorar base.md (documento auxiliar)
+base.md
+
+# Notebooks temporales
+*.ipynb_checkpoints
+
+# Entornos virtuales
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
